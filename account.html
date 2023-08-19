@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="py-4 shadow-sm bg-white px-60">
+        <div class="container flex items-center justify-between">
+        <!--logo-->
+        <a href="#"><img src="images/logo.svg" class="w-32"></a>
+        <!--Searchbar-->
+        <div class="w-full max-w-xl flex">
+            <span class="relative left-8 top-3 text-lg text-gray-400">
+                <i class="fas fa-search"></i>
+            </span>
+            <input class="w-full border border-r-0 border-rose-500 pl-12 py-3 pr-3 rounded-r-md focus:outline-none" type="text" placeholder="Search">
+            <button class="bg-rose-500 rounded  px-8 text-white rounded-r-md font-medium text-sm hover:bg-transparent hover:text-rose-500 border border-rose-500 transition">Search</button>
+    
+            
+        </div>
+    
+        <!--Icons-->
+        <div class="flex items-center space-x-2">
+              <a href="#" class="text-center text-gray-700 hover:text-rose-500 transition relative">
+                <div class="text-2xl">
+                   <i class="far fa-heart"></i>
+                </div>
+                <div class="text-xs leading-3">Wish List</div>
+                <span class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-rose-500 text-white text-xs">8</span>
+              </a>
+              <a href="#" class="text-center text-gray-700 hover:text-rose-500 transition relative">
+                <div class="text-2xl">
+                   <i class="fas fa-shopping-bag"></i>
+                </div>
+                <div class="text-xs leading-3">Cart</div>
+                <span class="absolute right-0 left-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-rose-500 text-white text-xs">8</span>
+              </a>
+              <a href="#" class="text-center text-gray-700 hover:text-rose-500 transition relative">
+                <div class="text-2xl">
+                   <i class="far fa-user"></i>
+                </div>
+                <div class="text-xs leading-3">Account</div>
+                
+            </a>
+        </div>
+    
+       </div>
+         </header>
+    <!--header_end-->
+
+    <!--Navbar-->
+   <nav class="bg-gray-800">
+    <div class="container flex px-64">
+    <!--all_catigory-->
+       <div class="px-8 py-4 bg-rose-500 flex items-center cursor-pointer relative group">
+         <span class="text-white">
+            <i class="fas fa-bars"></i>
+         </span>
+         <span class="capitalize ml-2 text-white">All Catigories</span>
+         
+       </div>
+     <!--end_all_catigory-->
+
+     <!--navbar links-->
+     <div class="flex items-center justify-between flex-grow pl-12">
+         <div class="items-center flex capitalize space-x-6">
+            <a href="home.html" class="text-gray-200 hover:text-rose-400 font-normal">Home</a>
+            <a href="shop1.html" class="text-gray-200 hover:text-rose-400 font-normal">Shop</a>
+            <a href="#" class="text-gray-200 hover:text-rose-400 font-normal">About Us</a>
+            <a href="#" class="text-gray-200 hover:text-rose-400 font-normal">Contact Us</a>
+         </div>
+         <a href="login.html" class="ml-32 text-gray-200 hover:text-rose-400 ease-in">Login/Register</a>
+     </div>
+    </div>
+     
+   </nav>
+   <!--Navbar_end-->
+
+   <!--breadcrums-->
+   <div class="py-4 flex items-center ml-64 gap-3">
+    <a href="home.html" class="text-rose-500 text-base">
+        <i class="fa fa-home"></i>
+    </a>
+    <span class="text-sm text-gray-400">
+        <i class="fas fa-chevron-right "></i>
+    </span>
+    <p class="text-gray-600 font-medium uppercase">my account</p>
+   </div>
+   <!--breadcrums end-->
+
+   <!--user acount info-->
+   <div class="ml-64 pt-7 flex items-center mb-12">
+    <!--sidebar-->
+    <div class="bg-white px-3 pb-6 shadow rounded overflow-hidden mr-6 pr-16">
+        <div class="divide-y divide-gray-200 space-y-5">
+            <div class="pt-4 flex items-center justify-center">
+                <div class="w-14 h-14">
+                    <img src="images/avatar.png">
+                </div>
+                <div class="ml-3 space-y-1">
+                    <p class="text-gray-600 font-medium">Hello,</p>
+                    <h2 class="font-bold">Russil Ahmed</h2>
+                </div>
+                
+            </div>
+            
+            <div class="pt-4">
+                <div class="flex items-center space-x-3 text-rose-500">
+                    <i class="fa fa-address-card"></i>
+                    <a href="#" class="text-base font-semibold">Manage Account</a>
+                </div>
+                <div >
+                   <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Profile Information</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Manage Address</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Change Password</a>
+                </div>
+                
+            </div>
+            
+            <div class="pt-4">
+                <div class="flex items-center space-x-3 text-gray-950">
+                    <i class="fa fa-credit-card"></i>
+                    <a href="#" class="text-base font-semibold">Payment Methods</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Voucher </a>
+                </div>
+            </div>
+            
+            <div class="pt-4">
+                <div class="flex items-center space-x-3 text-gray-950">
+                    <i class="fa fa-heart"></i>
+                    <a href="#" class="text-base font-semibold">My Wishlist</a>
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <div class="flex items-center space-x-3 text-gray-950">
+                    <i class="fa fa-sign-out"></i>
+                    <a href="#" class="text-base font-semibold">Logout</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   <!--sidebar end-->
+   
+   <!--Accounts-->
+   <div class="flext items-center justify-center w-72">
+    <div class="container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-20 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700">
+        <div class="flex justify-between">
+            <h1 class="text-lg font-medium">Presonal Information</h1>
+            <a href="#" class="text-rose-500 text-base">Edit</a>
+        </div>
+        <p class="text-gray-800 text-base font-medium mt-4">Russil Ahmed</p>
+        <p class="text-gray-800 text-base font-medium ">example@email.com</p>
+        <p class="text-gray-800 text-base font-medium ">(123)456-7789</p>
+    </div>
+
+   </div>
+
+   <div class="flext items-center justify-center  w-72 ml-3">
+    <div class="container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-14 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700">
+        <div class="flex justify-between">
+            <h1 class="text-lg font-medium">Shapping Address</h1>
+            <a href="#" class="text-rose-500 text-base">Edit</a>
+        </div>
+        <p class="text-gray-800 text-base font-medium mt-4">Russil Ahmed</p>
+        <p class="text-gray-800 text-base font-medium ">3891 Rancheivew Dr.</p>
+        <p class="text-gray-800 text-base font-medium ">Rechardson, Caifora</p>
+        <p class="text-gray-800 text-base font-medium ">(123)456-7789</p>
+    </div>
+
+   </div>
+
+   <div class="flext items-center justify-center w-72 ml-3">
+    <div class="container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-14 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700">
+        <div class="flex justify-between">
+            <h1 class="text-lg font-medium">Billing Address</h1>
+            <a href="#" class="text-rose-500 text-base">Edit</a>
+        </div>
+        <p class="text-gray-800 text-base font-medium mt-4">Russil Ahmed</p>
+<p class="text-gray-800 text-base font-medium ">3891 Rancheivew Dr.</p>
+        <p class="text-gray-800 text-base font-medium ">Rechardson, Caifora</p>
+        <p class="text-gray-800 text-base font-medium ">(123)456-7789</p>
+    </div>
+
+   </div>
+   <!--Accounts end-->
+   </div>
+   <!--user acount info end-->
+
+   <!--footer-->
+   <footer class="bg-white pt-16 pb-12 border-t border-gray-100 px-80 ">
+    <div class="container grid grid-cols-3 ">
+       <!--footer text-->
+       <div class="col-span-1 space-y-8">
+           <img src="images/logo.svg" class="w-30">
+           <p class="text-gray-500">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, non.
+           </p>
+           <div class="flex space-x-7">
+               <a href="#" class=" text-gray-400 hover:text-gray-500">
+                   <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="#" class=" text-gray-400 hover:text-gray-500">
+                   <i class="fab fa-twitter"></i>
+               </a>
+               <a href="#" class=" text-gray-400 hover:text-gray-500">
+                   <i class="fab fa-instagram"></i>
+               </a>
+               <a href="#" class=" text-gray-400 hover:text-gray-500">
+                   <i class="fab fa-linkedin-in"></i>
+               </a>
+           </div>
+       </div>
+       <!--footer text end-->
+
+       <!--footer links-->
+       <div class="col-span-2 grid grid-cols-2 gap-8">
+           <div class="grid grid-cols-2 gap-8">
+               <div class="pl-9">
+                   <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">solutions</h3>
+                   <div class="mt-4 space-y-4">
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Markting
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Anlytics
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Commerce
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Insights
+                       </a>
+               </div>
+               
+               </div>
+
+               <div class="pl-9">
+                   <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">
+                       support
+                   </h3>
+                   <div class="mt-4 space-y-4">
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Pricing
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Documentation
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           Guids
+                       </a>
+                       <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                           API Status
+                       </a>
+               </div>
+           </div>
+
+           
+       <!--footer links end-->
+          </div>
+          <div class="grid grid-cols-2 gap-8">
+           
+       <div class="pl-9">
+           <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">Company</h3>
+           <div class="mt-4 space-y-4">
+               <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                   About
+               </a>
+               <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                   Blog
+               </a>
+               <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                   Lobs
+               </a>
+               <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+                   Press
+               </a>
+       </div>
+   </div>
+
+   <div class="pl-9">
+       <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">legal</h3>
+       <div class="mt-4 space-y-4">
+           <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+               Cliam
+           </a>
+           <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+               Privacy
+           </a>
+           <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+               Policy
+           </a>
+           <a href="#"  class="text-base text-gray-500 hover:text-gray-900 block">
+               Terms
+           </a>
+   </div>
+   
+   </div>
+   <!--footer links end-->
+      </div>
+  </footer>
+</body>
+</html>
