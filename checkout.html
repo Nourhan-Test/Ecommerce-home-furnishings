@@ -90,75 +90,14 @@
     <span class="text-sm text-gray-400">
         <i class="fas fa-chevron-right "></i>
     </span>
-    <p class="text-gray-600 font-medium uppercase">my account</p>
+    <p class="text-gray-600 font-medium uppercase">checkout</p>
    </div>
    <!--breadcrums end-->
 
-   <!--user acount info-->
-   <div class="ml-64 pt-7 flex items-center mb-12">
-    <!--sidebar-->
-    <div class="bg-white px-3 pb-6 shadow rounded overflow-hidden mr-6 pr-16">
-        <div class="divide-y divide-gray-200 space-y-5">
-            <div class="pt-4 flex items-center justify-center">
-                <div class="w-14 h-14">
-                    <img src="images/avatar.png">
-                </div>
-                <div class="ml-3 space-y-1">
-                    <p class="text-gray-600 font-medium">Hello,</p>
-                    <h2 class="font-bold">Russil Ahmed</h2>
-                </div>
-                
-            </div>
-            
-            <div class="pt-4">
-                <div class="flex items-center space-x-3 text-rose-500">
-                    <i class="fa fa-address-card"></i>
-                    <a href="#" class="text-base font-semibold">Manage Account</a>
-                </div>
-                <div >
-                   <a href="profile-info.html" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Profile Information</a>
-                </div>
-                <div>
-                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Manage Address</a>
-                </div>
-                <div>
-                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Change Password</a>
-                </div>
-                
-            </div>
-            
-            <div class="pt-4">
-                <div class="flex items-center space-x-3 text-gray-950">
-                    <i class="fa fa-credit-card"></i>
-                    <a href="#" class="text-base font-semibold">Payment Methods</a>
-                </div>
-                <div>
-                    <a href="#" class="text-gray-800 text-base pl-7 hover:text-gray-900 hover:text-lg transition">Voucher </a>
-                </div>
-            </div>
-            
-            <div class="pt-4">
-                <div class="flex items-center space-x-3 text-gray-950">
-                    <i class="fa fa-heart"></i>
-                    <a href="#" class="text-base font-semibold">My Wishlist</a>
-                </div>
-            </div>
-
-            <div class="pt-4">
-                <div class="flex items-center space-x-3 text-gray-950">
-                    <i class="fa fa-sign-out"></i>
-                    <a href="#" class="text-base font-semibold">Logout</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-   <!--sidebar end-->
-   
-   <!--info form-->
-   <div class="w-1/2 ml-28">
-    <div class="container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-20 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700">
-        <h1 class="text-gray-900 font-bold text-xl">Profile information</h1>
+   <!--checkout-->
+   <div class="flex items-center justify-center w-2/5 ml-64">
+    <div class="container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-20 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700 mb-12 ml-48">
+        <h1 class="text-gray-900 font-bold text-xl">Checkout</h1>
         <form>
             <div class="flex items-center space-x-2 mt-4"> 
                 <div>
@@ -171,42 +110,111 @@
                 </div>
             </div>
 
-        <div class="flex items-center space-x-2 mt-4"> 
-            <div>
-                <label class="text-gray-700 mb-2 block">Birth Day</address></label>
-                <input type="date" class="block w-72 border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500" >
-            </div>
-            <div>
-                <label class="text-gray-700 mb-2 block">Gender</address></label>
-                <select class="block w-72 border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
-                    <option>Male</option>
-                    <option>Female</option>
-                </select>
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Company Name</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
                 
             </div>
-        </div>
 
-          
-        <div class="flex items-center space-x-2 mt-4"> 
-            <div>
-                <label class="text-gray-700 mb-2 block">Email Address</address></label>
-                <input type="email" class="block w-72 border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500" placeholder="example@email.com">
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Country|Region</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
             </div>
-            <div>
-                <label class="text-gray-700 mb-2 block">Phone Number</address></label>
-                <input type="text" class="block w-72 border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:border-rose-500 hover:text-rose-500" placeholder="+123 456 789">
-            </div>
-        </div>
 
-        <button class="border border-rose-500  px-5 py-2 bg-rose-500 text-white text-base font-semibold uppercase mt-4 rounded hover:bg-transparent hover:text-gray-700">save changes</button>
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Sweet Address</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
+            </div>
+
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Twon|City</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
+            </div>
+
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Zip code</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
+            </div>
+
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Phone Number</address></label>
+                    <input type="text" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
+            </div>
+
+            <div class="flex items-center space-x-2 mt-4"> 
+                <div>
+                    <label class="text-gray-600 mb-2 block">Email Address</address></label>
+                    <input type="email" class="block w-full border border-gray-300 px-56 py-3 text-gray-600 text-sm rounded hover:border-rose-500 focus:ring-0 focus:border-rose-500 hover:text-rose-500">
+                </div>
+                
+            </div>
         </form>
-        
-     </div>
-   </div> 
-   <!--info form end-->
+    </div>
+
+    <div class="flext items-center justify-center w-80 ">
+        <div class="w-80 container border border-gray-500 bg-rose-50 rounded px-3 pt-5 pb-10 shadow-md shadow-gray-500 hover:shadow-lg hover:shadow-gray-700 ml-28 mb-96  divide-y divide-gray-200 space-y-2">
+            <div>
+                <h1 class="text-lg font-medium uppercase mb-7">order summary</h1>
+                <div class="flex justify-between">
+                    <div>
+                        <h1 class="text-base font-medium ">Italianl Shape Sofa</h1>
+                        <p class="text-gray-500 text-sm">Size:M</p>
+                    </div>
+                    <p class="text-gray-500">X3</p>
+                    <h1 class="text-base font-medium ">$320</h1>
+                </div>
+                <div class="flex justify-between mt-5">
+                    <h1 class="text-base font-medium uppercase">Suptotal</h1>
+                    <h1 class="text-base font-medium ">$320</h1>
+                </div>
+            </div>
+            
+            <div class="flex justify-between pt-2 uppercase">
+                <h1 class="text-base font-medium uppercase">Shipping</h1>
+                <h1 class="text-base font-medium ">free</h1>
+            </div>
+
+            <div class="pt-2">
+                <div class="flex justify-between ">
+                    <h1 class="text-base font-medium uppercase">total</h1>
+                    <h1 class="text-base font-medium ">$320</h1>
+                </div>
+                <div class="flex items-center pt-5">
+                    <input type="checkbox" id="argeement" class="text-rose-500 bg-rose-500 focus:ring-0 rounded-sm cursor-pointer ">
+                    <label for="argeement" class="text-gray-400 ml-3 cursor-pointer">Agree to our <span class="text-rose-500">terms & conditions</span></label>
+                </div>
+                <button class="text-white border border-rose-500 bg-rose-500 rounded px-24 py-1 mt-4 hover:bg-white hover:text-gray-900">place order</button>
+            </div>
+        </div>
+    
+    </div>
+
+
+
 
    </div>
-   <!--user acount info end-->
+
+
+   <!--checkout end-->
+
+
 
    <!--footer-->
    <footer class="bg-white pt-16 pb-12 border-t border-gray-100 px-80 ">
